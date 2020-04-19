@@ -3,7 +3,7 @@
 Plugin Name: RSS Reviews
 Plugin URI: https://github.com/frugan-it/rss-reviews
 Description: Use this plugin to receive your latest reviews using an RSS feed from sites like TripAdvisor.
-Version: 2.1.1
+Version: 2.2.1
 Author: Gregory Pearcey
 Author URI: http://gregorypearcey.com/
 License: Creative Commons Attribution-ShareAlike 
@@ -18,7 +18,7 @@ require __DIR__ . '/vendor/autoload.php';
 add_action( 'wp_enqueue_scripts', function() {
 
     wp_enqueue_style( 'rss-reviews', plugins_url( 'assets/css/rss-reviews.min.css', __FILE__));
-    wp_enqueue_script( 'rss-reviews', plugins_url( 'assets/js/rss-reviews.min.js', __FILE__), array('jquery'), '2.1.1', true);
+    wp_enqueue_script( 'rss-reviews', plugins_url( 'assets/js/rss-reviews.min.js', __FILE__), array('jquery'), '2.2.1', true);
 });
 
 add_action( 'widgets_init', function() {
