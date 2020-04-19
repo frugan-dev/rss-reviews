@@ -2,16 +2,17 @@
 
 namespace RssReviews;
 
-class WP_Widget_RssReviews extends WP_Widget
+class WP_Widget_RssReviews extends \WP_Widget
 {
-    function rss_reviews()
+    public function __construct( $id_base, $name, $widget_options = array(), $control_options = array() )
     {
-        parent::WP_Widget(false, $name = __('RSS Reviews', 'rss_reviews'));
+        parent::WP_Widget( $id_base, $name = __('RSS Reviews', 'rss_reviews'));
     }
 
-    function form($instance)
+    public function form( $instance )
     {
         if ($instance) {
+
             $title = esc_attr($instance['title']);
             $text = esc_attr($instance['text']);
             $amount = esc_textarea($instance['amount']);
@@ -43,7 +44,7 @@ class WP_Widget_RssReviews extends WP_Widget
         <?php
     }
 
-    function update($new_instance, $old_instance)
+    public function update($new_instance, $old_instance)
     {
         $instance = $old_instance;
 
@@ -53,7 +54,7 @@ class WP_Widget_RssReviews extends WP_Widget
         return $instance;
     }
 
-    function widget($args, $instance)
+    public function widget($args, $instance)
     {
         extract($args);
 
@@ -75,12 +76,13 @@ class WP_Widget_RssReviews extends WP_Widget
             echo '<div id="slider" class="widget-text wp_widget_plugin_box">';
 
             if ($title) {
+
                 echo $before_title . $title . $after_title;
             }
 
             echo '<ul class="rslides">';
 
-            if ($maxitems == 0) echo '<p>Feed not available.</p>';
+            if ($maxitems == 0) echo '<p>'.esc_html('Feed not available', 'rss_reviews').'</p>';
             else foreach ($rss_items as $item) :
 
                 echo '<li>' . $item->get_description() . '</li>';
