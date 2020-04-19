@@ -2,6 +2,8 @@
 
 ### Commits
 
+- Updated CHANGELOG [`ed5684d`](https://github.com/frugan-it/rss-reviews/commit/ed5684d383ce535292f7721b2579bacaa56da822)
+- Added composer type property [`3c877d8`](https://github.com/frugan-it/rss-reviews/commit/3c877d83792e215cda9500c02ce4de49c4c2a0ab)
 - Merge tag 'v2.0.0' into develop [`166f858`](https://github.com/frugan-it/rss-reviews/commit/166f858c028c7b1fc4255f1467192a6fa28b9ce2)
 
 ## v2.0.0 - 2020-04-19

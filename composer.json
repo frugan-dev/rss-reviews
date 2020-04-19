@@ -1,5 +1,6 @@
 {
     "name": "frugan-it/rss-reviews",
+    "type": "wordpress-plugin",
     "config" : {
         "sort-packages": true
     },
