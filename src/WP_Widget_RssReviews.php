@@ -6,7 +6,7 @@ class WP_Widget_RssReviews extends \WP_Widget
 {
     public function __construct( $id_base, $name, $widget_options = array(), $control_options = array() )
     {
-        parent::WP_Widget( $id_base, $name, $widget_options, $control_options );
+        parent::__construct( $id_base, $name, $widget_options, $control_options );
     }
 
     public function form( $instance )
