@@ -1,12 +1,20 @@
-## Unreleased
+## [Unreleased](https://github.com/frugan-it/rss-reviews/compare/v2.0.0...HEAD)
 
 ### Commits
 
+- Merge tag 'v2.0.0' into develop [`166f858`](https://github.com/frugan-it/rss-reviews/commit/166f858c028c7b1fc4255f1467192a6fa28b9ce2)
+
+## v2.0.0 - 2020-04-19
+
+### Commits
+
+- Plugin refactoring [`b6d2eb7`](https://github.com/frugan-it/rss-reviews/commit/b6d2eb757d8126757b71dd6174e3cf1ad213f745)
 - removed some files [`e9376ea`](https://github.com/frugan-it/rss-reviews/commit/e9376ea8e7dadfc2fb3db1c6ea441f2ca5155116)
 - rss reviews plugin [`e5f3dbe`](https://github.com/frugan-it/rss-reviews/commit/e5f3dbec7489e567656c00505029fb994c7bc897)
 - add java script files [`7093749`](https://github.com/frugan-it/rss-reviews/commit/70937492bbb3c06f6c47ff050e95e4ce3c97422d)
 - add init [`9fb7733`](https://github.com/frugan-it/rss-reviews/commit/9fb7733b86aaa41a8833214d03edd8f98dc92fd4)
 - add css [`6cfad50`](https://github.com/frugan-it/rss-reviews/commit/6cfad50f7666642ee3a8712f748631aa1edf60f7)
+- Updated WP_Widget_RssReviews class [`5e0bb38`](https://github.com/frugan-it/rss-reviews/commit/5e0bb383f336258afea41b0cdf87047885a66e14)
 - Update CSS [`8170cbd`](https://github.com/frugan-it/rss-reviews/commit/8170cbda3ff255dcb9b24e7ff1c68b1a6992e636)
 - Update CSS [`0168b5a`](https://github.com/frugan-it/rss-reviews/commit/0168b5adbc1270ea630361062ec91819d08ad06f)
 - add init [`569da20`](https://github.com/frugan-it/rss-reviews/commit/569da202b153b57e29c53ff17be81261be18aaff)
