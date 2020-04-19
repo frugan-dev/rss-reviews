@@ -1,0 +1,12 @@
+{
+    "name": "frugan-it/rss-reviews",
+    "config" : {
+        "sort-packages": true
+    },
+    "autoload" : {
+        "psr-4" : {
+            "RssReviews\\" : "src/"
+        }
+    },
+    "require": {}
+}
