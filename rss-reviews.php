@@ -43,7 +43,7 @@ add_action( 'init', function() {
 
             if($maxitems == 0) {
 
-                return '<p>Feed not available.</p>';
+                return '<p>'.esc_html('Feed not available.', 'rss_reviews').'</p>';
 
             } else {
 
