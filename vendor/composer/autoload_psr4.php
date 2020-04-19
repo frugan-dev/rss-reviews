@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'RssReviews\\' => array($baseDir . '/src'),
+    'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
 );

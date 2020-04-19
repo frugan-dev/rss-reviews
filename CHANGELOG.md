@@ -1,9 +1,16 @@
-## [Unreleased](https://github.com/frugan-it/rss-reviews/compare/v2.0.0...HEAD)
+## [Unreleased](https://github.com/frugan-it/rss-reviews/compare/v2.1.0...HEAD)
+
+### Commits
+
+- Updated composer [`f8a1b96`](https://github.com/frugan-it/rss-reviews/commit/f8a1b96d28726e660b8f355e87c28da9d5131d9c)
+- Merge tag 'v2.1.0' into develop [`753d40d`](https://github.com/frugan-it/rss-reviews/commit/753d40dbe8ae6d025b37b0a20613098817b7e965)
+
+## [v2.1.0](https://github.com/frugan-it/rss-reviews/compare/v2.0.0...v2.1.0) - 2020-04-19
 
 ### Commits
 
 - Updated CHANGELOG [`ed5684d`](https://github.com/frugan-it/rss-reviews/commit/ed5684d383ce535292f7721b2579bacaa56da822)
-- Added composer/installers plugin [`8e12803`](https://github.com/frugan-it/rss-reviews/commit/8e1280393155a33ac67cf4f51c2c997ec3bf8d8b)
+- Added composer/installers plugin [`15e50c4`](https://github.com/frugan-it/rss-reviews/commit/15e50c48443b8781e8ec9eed752ea62538df412a)
 - Added composer type property [`6955f4b`](https://github.com/frugan-it/rss-reviews/commit/6955f4be4ddca4070201b7a738d89651d51128b0)
 - Merge tag 'v2.0.0' into develop [`166f858`](https://github.com/frugan-it/rss-reviews/commit/166f858c028c7b1fc4255f1467192a6fa28b9ce2)
 
