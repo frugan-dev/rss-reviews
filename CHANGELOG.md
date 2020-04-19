@@ -2,7 +2,8 @@
 
 ### Commits
 
-- Updated composer [`f8a1b96`](https://github.com/frugan-it/rss-reviews/commit/f8a1b96d28726e660b8f355e87c28da9d5131d9c)
+- Updated composer [`ad76f06`](https://github.com/frugan-it/rss-reviews/commit/ad76f06cbf39ddb4b670affd28b5a937859170da)
+- Updated plugin version [`49a9e9d`](https://github.com/frugan-it/rss-reviews/commit/49a9e9dd978a2e847cf0b5b01a7e7865248503cd)
 - Merge tag 'v2.1.0' into develop [`753d40d`](https://github.com/frugan-it/rss-reviews/commit/753d40dbe8ae6d025b37b0a20613098817b7e965)
 
 ## [v2.1.0](https://github.com/frugan-it/rss-reviews/compare/v2.0.0...v2.1.0) - 2020-04-19
