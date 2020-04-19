@@ -1,9 +1,16 @@
-## [Unreleased](https://github.com/frugan-it/rss-reviews/compare/v2.1.0...HEAD)
+## [Unreleased](https://github.com/frugan-it/rss-reviews/compare/v2.1.1...HEAD)
+
+### Commits
+
+- Fixed Fatal error: Uncaught ArgumentCountError: Too few arguments to function RssReviews\WP_Widget_RssReviews::__construct() [`653d1ac`](https://github.com/frugan-it/rss-reviews/commit/653d1acb12dbe1c87ca62cbfd0f7af117af3e7b5)
+- Merge tag 'v2.1.1' into develop [`2b022f7`](https://github.com/frugan-it/rss-reviews/commit/2b022f784c9575c9f6c39a184ad47a3a28d4aa53)
+
+## [v2.1.1](https://github.com/frugan-it/rss-reviews/compare/v2.1.0...v2.1.1) - 2020-04-19
 
 ### Commits
 
 - Updated composer [`ad76f06`](https://github.com/frugan-it/rss-reviews/commit/ad76f06cbf39ddb4b670affd28b5a937859170da)
-- Updated plugin version [`49a9e9d`](https://github.com/frugan-it/rss-reviews/commit/49a9e9dd978a2e847cf0b5b01a7e7865248503cd)
+- Updated plugin version [`69bdae5`](https://github.com/frugan-it/rss-reviews/commit/69bdae5a50ae78de18ef2969fe35378c26cd676f)
 - Merge tag 'v2.1.0' into develop [`753d40d`](https://github.com/frugan-it/rss-reviews/commit/753d40dbe8ae6d025b37b0a20613098817b7e965)
 
 ## [v2.1.0](https://github.com/frugan-it/rss-reviews/compare/v2.0.0...v2.1.0) - 2020-04-19

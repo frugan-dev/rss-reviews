@@ -23,7 +23,7 @@ add_action( 'wp_enqueue_scripts', function() {
 
 add_action( 'widgets_init', function() {
 
-    return new \RssReviews\WP_Widget_RssReviews( 'rss_reviews' );
+    return new \RssReviews\WP_Widget_RssReviews( 'rss_reviews', __('RSS Reviews', 'rss_reviews') );
 });
 
 add_action( 'init', function() {
