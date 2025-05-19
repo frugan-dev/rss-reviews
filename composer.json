@@ -1,5 +1,5 @@
 {
-    "name": "wordpress-plugin/rss-reviews",
+    "name": "frugan-dev/rss-reviews",
     "type": "wordpress-plugin",
     "description": "Wordpress plugin",
     "license": "GPL-2.0-or-later",
