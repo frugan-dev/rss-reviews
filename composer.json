@@ -1,16 +1,9 @@
 {
-    "name": "frugan-it/rss-reviews",
+    "name": "wordpress-plugin/rss-reviews",
     "type": "wordpress-plugin",
-    "config" : {
-        "sort-packages": true
-    },
-    "autoload" : {
-        "psr-4" : {
-            "RssReviews\\" : "src/"
-        }
-    },
+    "description": "Wordpress plugin",
+    "license": "GPL-2.0-or-later",
     "require": {
-        "php": ">=5.4.0",
-        "composer/installers": "~1.0"
+        "composer/installers": "^1.0 || ^2.0"
     }
 }
